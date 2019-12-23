@@ -1,0 +1,82 @@
+
+ 
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+  }
+  .head{
+    background-image: url('/assets/secongpage.jpg');
+    background-position: center;
+    background-size: cover;
+    height:600;
+  }
+  
+* {
+    box-sizing: border-box;
+  }
+  
+ 
+  .container {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 16px;
+    background-color:white;
+ 
+    width:300px;
+    height:600;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+  
+  input[type=text], input[type=password]
+   {
+    width: 100%;
+    height:80%;
+    padding : 15px;
+    margin : 5px 0 22px 0;
+    display: inline-block;
+   border:none;
+    background-color:#f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+ 
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+
+  .registerbtn {
+    background-color:burlywood;
+    color: white;
+    padding: 16px 20px;
+  margin-left: auto;
+  margin-right: auto;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+  }
+  
+
+  a {
+    color: dodgerblue;
+  }
+  
+  .signin {
+    background-color:#ffffff;
+    text-align: center;
+    font: size 15;;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  }

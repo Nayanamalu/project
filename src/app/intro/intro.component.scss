@@ -1,0 +1,44 @@
+body {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+  
+}
+
+.menu {
+  display: none;
+}
+.head{
+ background-image:url("https://images.pexels.com/photos/257897/pexels-photo-257897.jpeg?cs=srgb&dl=man-using-laptop-on-table-against-white-background-257897.jpg&fm=jpg");
+ background-image:no-repeat;
+ background-size:cover;
+ 
+}
+
+.button {
+  background-color:red;
+  border: none;
+  color: green;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  
+
+}
+
+
+.display-top
+{
+text-align: center;
+padding-top:15%;
+}
+
+.font{
+font-family: cursive;color:white;
+}
+.name{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+  font-size: 30px;
+}
